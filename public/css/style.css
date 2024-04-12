@@ -92,3 +92,21 @@ body {
     background-color: #fe424d;
     border: none;
 }
+
+.btn-edit {
+    background-color: #fe424d;
+    border: none;
+}
+
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex   ;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
