@@ -11,9 +11,9 @@ const listingSchema = new Schema({
     },
     image: {
         type: String,
-        default: "https://unsplash.com/photos/an-aerial-view-of-a-beach-with-a-group-of-people-V8WvhNWWDwY",
-        set: (v) => v === "" ? "https://unsplash.com/photos/an-aerial-view-of-a-beach-with-a-group-of-people-V8WvhNWWDwY" : v,
-    },
+        default: "https://images.unsplash.com/photo-1710447177159-c4ae694ba09b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        set: (v) => v === "" ? "https://images.unsplash.com/photo-1710447177159-c4ae694ba09b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" : v,
+    },    
     price: {
         type: Number,
     },
