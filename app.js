@@ -32,7 +32,7 @@ async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/wanderlust'); 
 };
 
-const validateListing = (req, res, next) => {
+const validateListing = (req, res, next) => { 
     let {error} = listingSchema.validate(req.body);   
     if (error) {
         let errMsg = error.details.map((el) => el.message).join(",")
